@@ -63,8 +63,8 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-// Add smooth scroll behavior for better UX
-document.documentElement.style.scrollBehavior = 'smooth';
+// Set current year in footer
+document.getElementById('current-year').textContent = new Date().getFullYear();
 
 // Console message
 console.log('Louis Science - 理科の解説サイト');
